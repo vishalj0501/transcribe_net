@@ -1,7 +1,8 @@
 import unicodedata
 from itertools import groupby
 
-import data_preprocess.preprocess as pp
+from preprocess import text_standardize
+
 import numpy as np
 
 class Tokenizer():
@@ -38,7 +39,7 @@ class Tokenizer():
         """Decode vector to text"""
         decoded = "".join([self.chars[int(x)] for x in text if x > -1])
         decoded = self.remove_tokens(decoded)
-        decoded = pp.text_standardize(decoded)
+        decoded = text_standardize(decoded)
 
         return decoded
 
