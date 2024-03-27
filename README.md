@@ -1,3 +1,5 @@
+# HumanAI Submission 2024
+
 ## Text Recognition with Transformer Models
 
 This project was focussed on the application of hybrid end-to-end models based on transformers to recognize text in Spanish printed sources from the seventeenth century.
@@ -15,6 +17,8 @@ KLDivLoss :
 
 ### General Dataset Used:
 Bentham Dataset -> [Download Link](https://zenodo.org/records/44519)
+
+To preprocess the data, run the main() function in `data_preprocess/bentham_transform.py` or download the preprocessed dataset here: [Bentham Preprocessed Data](https://amritauniv-my.sharepoint.com/:u:/g/personal/amenu4aie21178_am_students_amrita_edu/ERzvGI5PulVMoICHoHoYKnkBo0We64Nb-CuktTtfvbLQ3Q?e=8M2Y32)
 
 Epochs : 200
 
