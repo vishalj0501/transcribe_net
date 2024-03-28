@@ -28,9 +28,9 @@ Test Result:
 
 Evaluation Metrics Used
 
-CER - Character Error Rate
-WER - Word Error Rate
-SER - Sequence Error Rate
+CER - (Character Error Rate), 
+WER - (Word Error Rate), 
+SER - (Sequence Error Rate)
  
 ![image](assets/pretrain_result.png)
 
