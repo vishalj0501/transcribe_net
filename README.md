@@ -25,6 +25,14 @@ Epochs : 200
 Pretrained weights can be downloaded here -> [Pretrain Weights](https://amritauniv-my.sharepoint.com/:u:/g/personal/amenu4aie21178_am_students_amrita_edu/EV1DDTWIW2RHqefzHkXvU-ABm478tzOOtCtSh1ts9TDy7w?e=VjhtcO)
 
 Test Result: 
+
+Evaluation Metrics Used:
+
+CER - Character Error Rate
+
+WER - Word Error Rate
+
+SER - Sequence Error Rate
  
 ![image](assets/pretrain_result.png)
 
@@ -43,6 +51,14 @@ Loss vs Graph:
 ![image](assets/fine_tune_loss.png)
 
 Test Results over all images:
+
+Evaluation Metrics Used:
+
+CER - Character Error Rate
+
+WER - Word Error Rate
+
+SER - Sequence Error Rate
 
 ![image](assets/fine_tune_final_ers.png)
 
