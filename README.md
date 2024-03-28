@@ -26,12 +26,10 @@ Pretrained weights can be downloaded here -> [Pretrain Weights](https://amritaun
 
 Test Result: 
 
-Evaluation Metrics Used:
+Evaluation Metrics Used
 
 CER - Character Error Rate
-
 WER - Word Error Rate
-
 SER - Sequence Error Rate
  
 ![image](assets/pretrain_result.png)
@@ -51,14 +49,6 @@ Loss vs Graph:
 ![image](assets/fine_tune_loss.png)
 
 Test Results over all images:
-
-Evaluation Metrics Used:
-
-CER - Character Error Rate
-
-WER - Word Error Rate
-
-SER - Sequence Error Rate
 
 ![image](assets/fine_tune_final_ers.png)
 
