@@ -53,6 +53,6 @@ Test Results over all images:
 ![image](assets/fine_tune_final_ers.png)
 
 
-Test Page 30: Visual Result: (The Ground Truth has been calculated using pytesseract OCR)
+Test PDF Page 15 P2 - P: Visual Result:
 
 ![image](assets/test_result.png)
