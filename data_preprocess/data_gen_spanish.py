@@ -13,18 +13,19 @@ from preprocess import preprocess, normalization
 
 
 class DataGenerator_Spanish(Dataset):
-    def __init__(self, source_dict, charset, max_text_length, transform):
+    def __init__(self, source_dict, charset, max_text_length, transform, shuffe = True):
         self.tokenizer = Tokenizer(charset, max_text_length)
         self.transform = transform
-        
+        self.shuffle = shuffe
         self.dataset = source_dict.copy() 
-        
-        randomize = np.arange(len(self.dataset['gt']))
-        np.random.seed(42)
-        np.random.shuffle(randomize)
 
-        self.dataset['dt'] = np.array(self.dataset['dt'])[randomize]
-        self.dataset['gt'] = np.array(self.dataset['gt'])[randomize]
+        if self.shuffle:
+            randomize = np.arange(len(self.dataset['gt']))
+            np.random.seed(42)
+            np.random.shuffle(randomize)
+
+            self.dataset['dt'] = np.array(self.dataset['dt'])[randomize]
+            self.dataset['gt'] = np.array(self.dataset['gt'])[randomize]
 
         self.dataset['gt'] = [x.decode() for x in self.dataset['gt']]
             
