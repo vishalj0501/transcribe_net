@@ -56,3 +56,7 @@ Test Results over all images:
 Test PDF Page 15 P2 - P: Visual Result:
 
 ![image](assets/test_result.png)
+
+PDF age 16 P2
+
+![image](assets/example_inference.png)
