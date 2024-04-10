@@ -105,7 +105,7 @@ class OCR(nn.Module):
                                   tgt_key_padding_mask=trg_pad_mask.permute(1,0))
 
         return self.vocab(output.transpose(0,1))
-x
+
 
 def make_model(vocab_len, hidden_dim=256, nheads=4,
                  num_encoder_layers=4, num_decoder_layers=4):

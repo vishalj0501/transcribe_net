@@ -9,6 +9,7 @@ This project was focussed on the application of hybrid end-to-end models based o
 
 This model combines ResNet-101 for feature extraction with a Transformer architecture for sequence modeling. Initially, ResNet-101 extracts visual features, which are then passed through a 1x1 convolutional layer to adapt their dimensionality. The Transformer processes these features along with positional encodings, capturing spatial and sequential information. It predicts token probabilities through linear layers, facilitating Optical Character Recognition tasks.
 
+#### Deployment -> [Hugging Face Spaces](https://huggingface.co/spaces/vishal0501/transformer_text_detection_humanai)
 
 ### Loss Function
 
