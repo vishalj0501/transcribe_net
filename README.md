@@ -1,4 +1,4 @@
-# HumanAI Submission 2024
+# Transcribe Net
 
 ## Text Recognition with Transformer Models
 
